@@ -13,7 +13,7 @@ public class Study1for {
 		int num1 = 0;
 		//입력받은 정수의 약수를 출력하세요
 		//약수의 갯수를 출력하세요
-		for(int i = 1; i<num;i++) {
+		for(int i = 1; i<=num;i++) {
 			if(num%i == 0) {
 				System.out.println(i);
 				num1++;
