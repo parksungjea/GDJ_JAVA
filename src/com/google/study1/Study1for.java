@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Study1for {
 	public static void main(String [] args) {
+		System.out.println("프로그램 시작");
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("정숭 하나를 입력하세욧");
