@@ -51,6 +51,7 @@ public static void main(String[] args) {
 		if(menu==3) {
 			System.out.println("몇번학생의 정보를 보고싶나요~~?");
 			int1 =sc.nextInt();
+			
 			System.out.println("이름 : "+student1[int1].name+", 번호 :"+student1[int1].num+", 학점 :"+student1[int1].jumsu);
 			i=0;
 		}
