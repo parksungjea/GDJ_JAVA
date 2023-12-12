@@ -6,7 +6,23 @@ public class SchoolService {
 	
 	//addStudent
 	//이름, 번호, 점수를 입력받아서 기존 배열에 추가한 효과
-	
+	public void addStdent(Student [] students) {
+		Scanner sc = new Scanner(System.in);
+		Student student = new Student();
+		System.out.println("이름을 입력");
+		student.name = sc.next();
+		System.out.println("번호를 입력");
+		student.num=sc.nextInt();
+		System.out.println("학점을 입력");
+		student.jumsu=sc.nextDouble();
+		
+		Student [] newStudents = new Student[students.length];
+//		for(int i=0; i<students.length;i++);{
+//			newStudents[i]=students[i];
+//			
+//		}
+		
+	}
 	
 	//findByNum
 	//학생번호를 입력받아서, 일치하는 학생이 있는지 검색
