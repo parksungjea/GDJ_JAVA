@@ -25,7 +25,7 @@ public void Start(){
 		}
 		if(a==3) {
 			Plus plus = new Plus();
-			exs=plus.Delete(exs);
+//			exs=plus.Delete(exs);
 		}
 		if(a==4) {
 			System.out.println("4");
