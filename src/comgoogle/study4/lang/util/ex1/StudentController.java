@@ -15,7 +15,7 @@ public class StudentController {
 	
 	public void start() {
 		boolean check=true;
-		ArrayList<StudentDTO> ar = this.studentService.init();;
+//		ArrayList<StudentDTO> ar = this.studentService.init();;
 		
 		
 		while(check) {
