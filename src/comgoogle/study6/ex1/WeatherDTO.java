@@ -1,48 +1,37 @@
 package comgoogle.study6.ex1;
 
 public class WeatherDTO {
-	private String name;
-	private String ondo;
-	private	String gion;
-	private String sudo;
 	
-	public void info() {
-		
+	private String city;
+	private int gion;
+	private String info;
+	private int hum;
+	
+	public String getCity() {
+		return city;
 	}
-
-	public String getName() {
-		return name;
+	public void setCity(String city) {
+		this.city = city;
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getOndo() {
-		return ondo;
-	}
-
-	public void setOndo(String ondo) {
-		this.ondo = ondo;
-	}
-
-	public String getGion() {
+	public int getGion() {
 		return gion;
 	}
-
-	public void setGion(String gion) {
+	public void setGion(int gion) {
 		this.gion = gion;
 	}
-
-	public String getSudo() {
-		return sudo;
+	public String getInfo() {
+		return info;
 	}
-
-	public void setSudo(String sudo) {
-		this.sudo = sudo;
+	public void setInfo(String info) {
+		this.info = info;
 	}
-
-
+	public int getHum() {
+		return hum;
+	}
+	public void setHum(int hum) {
+		this.hum = hum;
+	}
 	
 	
+
 }
